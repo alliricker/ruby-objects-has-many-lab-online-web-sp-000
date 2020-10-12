@@ -7,6 +7,6 @@ class Song
     @@all << self
   end
 
-  def all?
-    @@all?
+  def all
+    @@all
   end
