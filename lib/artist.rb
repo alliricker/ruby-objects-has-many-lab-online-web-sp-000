@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def add_song(song)
-  song.artist = self 
+  song.artist = self
 end
 
 def songs
