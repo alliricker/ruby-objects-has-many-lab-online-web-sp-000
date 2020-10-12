@@ -1,0 +1,26 @@
+class Author
+  attr_accessor :name
+
+def initialize(name)
+  @name = name
+  posts = []
+end
+
+def add_post(post)
+  self.author = post 
+end
+
+def posts
+Author.all.select { |post| post.Author == self }
+end
+
+def add_post_by_title(title)
+  title = Song.new(title)
+  add_post(post)
+end
+
+def post_count
+  Post.all.count
+end
+
+end
