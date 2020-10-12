@@ -1,9 +1,9 @@
 class Artist
-attr_accessor :song
+attr_accessor :name
 
-def initialize(song)
-  @song = song
-end 
+def initialize(name)
+  @name = name 
+end
 
 
 end
