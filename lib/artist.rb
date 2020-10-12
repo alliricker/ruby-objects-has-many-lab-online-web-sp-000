@@ -25,6 +25,6 @@ drake.songs
 
 drake.add_song(kiki)
 drake.add_song(hotline)
- 
+
 drake.songs
   # =>[#<Song
