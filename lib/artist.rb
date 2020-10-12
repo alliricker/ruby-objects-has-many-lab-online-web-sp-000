@@ -16,3 +16,8 @@ def add_song(song)
 end
 
 end
+
+drake = Artist.new("Drake")
+drake.add_song("In My Feelings")
+drake.add_song("Hotline Bling")
+drake.songs
