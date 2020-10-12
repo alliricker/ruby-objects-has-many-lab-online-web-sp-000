@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def songs
-  songs << self
+
 end
 
 end
