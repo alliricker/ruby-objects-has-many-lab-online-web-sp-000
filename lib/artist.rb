@@ -12,12 +12,8 @@ end
 
 def add_song(song)
   @songs << song
-  song.artist = self
 end
 
 end
 
-drake = Artist.new("Drake")
-drake.add_song("In My Feelings")
-drake.add_song("Hotline Bling")
-drake.songs
+
